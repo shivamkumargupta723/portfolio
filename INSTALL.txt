@@ -1,0 +1,24 @@
+QUICK INSTALL — SHIVAM KUMAR GUPTA PORTFOLIO CMS
+
+XAMPP:
+1. Copy this folder to /Applications/XAMPP/xamppfiles/htdocs/shivam-portfolio
+2. Start Apache + MySQL in XAMPP.
+3. Open http://localhost/phpmyadmin
+4. Import database.sql.
+5. Edit config.php if your MySQL username/password differs.
+6. Open http://localhost/shivam-portfolio/
+7. Admin: http://localhost/shivam-portfolio/admin/login.php
+
+HOSTINGER:
+1. Create a MySQL database/user in hPanel.
+2. Import database.sql in phpMyAdmin.
+3. Upload all files to public_html.
+4. Edit config.php with Hostinger DB host/name/user/password and real SITE_URL.
+5. Ensure uploads folders are writable.
+6. Open /admin/login.php and immediately change the password.
+
+Default admin:
+Email: guptashiavmkumar884@gmail.com
+Password: password
+
+DO NOT leave the default password in production.
